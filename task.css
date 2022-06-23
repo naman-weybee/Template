@@ -17,8 +17,36 @@ body a {
   width: 30%;
   height: 100%;
 }
+.navbar .menu-btn {
+  display: block;
+}
 .navbar nav {
+  background: #112b3b;
   display: none;
+  position: fixed;
+  width: 66%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 1em;
+}
+.navbar nav ul.primary-nav {
+  list-style-type: none;
+  padding-top: 4.5em;
+}
+.navbar nav li a {
+  padding: 0.5em;
+  display: block;
+  font-size: 1.3em;
+  text-align: right;
+}
+.navbar nav li a:hover {
+  font-weight: bold;
+}
+.navbar .mobile-menu-exit {
+  float: right;
+  margin-top: 0.5em;
+  cursor: pointer;
 }
 .navbar .container {
   display: flex;
