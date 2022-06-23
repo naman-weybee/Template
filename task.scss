@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+$main-color: #112b3b;
+
+body {
+    background: rgb(248, 242, 232);
+    margin: 0;
+    font-family: ' Poppins ';
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.navbar{
+    background: $main-color;
+    padding: 1em;
+
+    .container{
+        .logo{
+            width: 30%;
+            height: 100%;
+        }
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .container{
+        display: flex;
+        place-content: space-between;
+    }
+
+    .mobile-menu{
+        cursor: pointer;
+    }
+
+}
+
+.hero{
+    padding: 1em;
+    .container{
+        width: 100%;
+        .over{
+            display: none;
+        }
+    }
+    .mainpicture{
+        width: 100%;
+    }
+}
+
+.contect-section{
+    margin: 1em;
+    text-align: center;
+
+    .container{
+        .contect-left{
+            .family{
+                width: 100%;
+            }
+            .h4{
+                margin: 0;
+                padding-bottom: 0.8em;
+            }
+            .talks{
+                padding: 0.2em;
+                font-size: 1.1em;
+                margin: 1.3em;
+                font-weight: bold;
+            }
+        }
+
+        .contect-right{
+            .container{
+                .one{
+                    background: linear-gradient(to bottom, rgb(160, 198, 235), rgb(237, 241, 242));
+    
+                    .mainhead{
+                        margin: 0;
+                        padding-top: 0.3em;
+                    }
+    
+                    .subhead{
+                        margin: 0;
+                        padding-top: 0.3em;
+                    }
+    
+                    .extra{
+                        padding: 0.8em;
+                        margin: 0;
+    
+                        .button{
+                            font-size: 1em;
+                            font-weight: bold;
+                            border-radius: 1em;
+                            background: #e2fafb;
+                        }
+                    }
+                }
+
+                img{
+                    width: 100%;
+                }
+
+                h5{
+                    font-size: 1em;
+                    margin: 0;
+                    padding: 1em;
+                }
+
+                .two{
+                    .button{
+                        font-size: 1em;
+                        border-radius: 0.4em;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+        }
+        .text{
+            margin: 0;
+            font-size: 1.1em;
+            padding: 1em;
+        }
+    }
+}
+
+.footer{
+    margin: 1em;
+    background: $main-color;
+    color: white;
+    text-align: center;
+    .container{
+        li{
+            list-style: none;
+            display: inline;
+            padding: .5em;
+        }
+        img{
+            width: 4.5em;
+        }
+        .app{
+            .app1{
+                ul{
+                    margin: 0;
+                }
+                h6{
+                    padding: 1em;
+                    font-size: 1em;
+                    margin: 0;
+                }
+            }
+            .app2{
+                display: none;
+            }
+        }
+
+        .signup{
+            p{
+                margin: 0;
+                padding: .5em;
+                text-align: center;
+            }
+            .emailbutton{
+                text-align: center;
+                padding: 1em;
+            }
+            .list{
+                padding:0;
+                font-size: .8em;
+                margin: 0;
+                padding-bottom: 1em;
+            }
+        }
+    }
+}

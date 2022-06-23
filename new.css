@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.mobile-menu,
+.mobile-menu-exit {
+  display: none;
+}
+
+body {
+  background: rgb(248, 242, 232);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  font-weight: bold;
+}
+
+.navbar {
+  background: #112b3b;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .container .logo {
+  margin-left: 3em;
+  padding-top: 1em;
+}
+.navbar .nav {
+  width: 61%;
+}
+.navbar .nav ul {
+  list-style: none;
+  text-align: center;
+  background: rgb(52, 50, 50);
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: 4em;
+  margin-bottom: 0%;
+  width: 40em;
+}
+.navbar .nav li {
+  display: inline;
+  padding-left: 1em;
+  padding: 10px;
+}
+.navbar .nav li:hover {
+  font-weight: bold;
+  background-color: black;
+}
+
+.hero {
+  display: block;
+  height: 17.8em;
+}
+.hero .container {
+  height: 17.8em;
+}
+.hero .mainpicture {
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.hero h1 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  margin-top: -4em;
+  font-size: 2em;
+}
+.hero h1:hover {
+  font-weight: bold;
+}
+
+.contect-section {
+  display: flex;
+  margin-left: 5em;
+}
+.contect-section .container .contect-left {
+  width: auto;
+  text-align: left;
+  margin-left: 7em;
+}
+.contect-section .container .contect-left .talks {
+  font-size: 1.2em;
+}
+.contect-section .container .contect-left .family {
+  display: block;
+}
+.contect-section .container .contect-left h4 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+.contect-section .container .contect-left h5 {
+  font-size: 1.1em;
+}
+.contect-section .contect-right {
+  width: 50%;
+  margin-left: 5em;
+  margin-right: 12em;
+}
+.contect-section .contect-right .aerrow {
+  width: 5%;
+  margin-top: 1em;
+}
+.contect-section .contect-right .one {
+  background-image: linear-gradient(rgb(31, 98, 170), white);
+  text-align: left;
+  width: 36em;
+}
+.contect-section .contect-right .one .mainhead {
+  padding-top: 0.8em;
+  padding-left: 1em;
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+}
+.contect-section .contect-right .one .subhead {
+  margin-bottom: -1em;
+  padding-left: 1em;
+  width: 90%;
+  font-size: 1.7em;
+}
+.contect-section .contect-right .one .extra {
+  text-align: right;
+  padding-right: 2em;
+}
+.contect-section .contect-right .one .extra .button {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1em;
+  border-color: rgb(89, 182, 208);
+  margin-bottom: 0.7em;
+}
+.contect-section .contect-right .one .extra .button:hover {
+  font-weight: bold;
+}
+.contect-section .contect-right .article h5 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+}
+.contect-section .contect-right .article .container {
+  display: flex;
+}
+.contect-section .contect-right .article .container blockquote {
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 1em;
+  height: 100%;
+  background: #112b3b;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .app {
+  margin-right: 8em;
+  width: 26em;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 7em;
+  padding: 0;
+  display: flex;
+}
+.footer .container .app .app2 img {
+  padding-top: 2.3em;
+  width: 9em;
+}
+.footer .container .app h6 {
+  color: white;
+  padding-left: 4.5em;
+  padding-top: 0;
+  font-size: 1em;
+}
+.footer .container .app ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 0.8em;
+  margin-top: -3em;
+  margin-bottom: 0;
+  width: 25em;
+  margin-left: -3em;
+}
+.footer .container .app li {
+  display: inline;
+  padding: 8px;
+}
+.footer .container .app li img {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.footer .container .app img {
+  width: 4em;
+}
+.footer .container .guide {
+  width: 15em;
+  padding-top: 0.7em;
+  margin-left: -5em;
+  margin-top: 1.7em;
+}
+.footer .container .guide img {
+  width: 8em;
+}
+.footer .container .signup {
+  margin-right: 10em;
+  margin-left: 0;
+  margin-top: 0.6em;
+  color: white;
+  font-size: 1em;
+  width: 35em;
+}
+.footer .container .signup h5 {
+  margin-bottom: 0;
+}
+.footer .container .signup h6 {
+  margin-top: 0;
+}
+.footer .container .signup ul {
+  color: white;
+  list-style: none;
+  text-align: center;
+  font-size: 0.8em;
+  width: 50%;
+  display: flex;
+  height: auto;
+  position: absolute;
+  margin-top: 0;
+  padding-left: 0;
+}
+.footer .container .signup ul a {
+  color: white;
+}
+.footer .container .signup ul li {
+  padding: 0.5em;
+  display: flex;
+}
+
+@media only screen and (max-width: 420px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar .container .logo {
+    margin-left: 3em;
+    padding-top: 1em;
+  }
+  .navbar .container .logo img {
+    width: 50%;
+  }
+  .navbar .container .nav {
+    display: none;
+  }
+  .navbar .container .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+  }
+
+  .hero {
+    display: block;
+    height: auto;
+  }
+
+  .container {
+    height: auto;
+  }
+  .container .mainpicture {
+    width: 420px;
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container h1 {
+    display: none;
+  }
+}
+.contect-section {
+  display: inline;
+}
+.contect-section .container {
+  display: inline;
+  flex-direction: column;
+}
+.contect-section .container .contect-left {
+  margin-left: 1em;
+}
+.contect-section .container .contect-left .family {
+  width: 100%;
+}
+.contect-section .contect-right {
+  margin-left: 1em;
+  margin-right: 0;
+  width: 100%;
+}
+.contect-section .contect-right .one {
+  width: 100%;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .signup {
+  margin-left: 2.5em;
+  width: 94%;
+}
+.footer .container .signup ul {
+  position: unset;
+}
+.footer .container .app {
+  margin-right: 0;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.footer .container .app .app2 {
+  display: none;
+}
+.footer .container .app ul {
+  padding-top: 3em;
+}
+.footer .container .app1 h6 {
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 0;
+}
+.footer .container .app1 ul {
+  padding-left: 0;
+}/*# sourceMappingURL=new.css.map */
